@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BuildNeo</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+  <section class="subheader1">
+    <nav>
+      <a href="index.html"><img src="photos/logo.png" alt="BuildNeo Logo"></a>
+      <div class="nav-links" id="navlinks">
+        <i class="fa fa-arrow-left" onclick="hidemenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="research&innovation.html">RESEARCH & INNOVATION</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-list" onclick="openmenu()"></i>
+    </nav>
+      <h1>Research And Innovation</h1>
+  </section>
+  <section class="rd">
+    <h1>Our Research & Innovation</h1>
+    <p>Our past work</p>
+    <div class="row">
+      <div class="rd-col1">
+        <h4>RSE<br>(River Sediment Explorer)</h4>
+        <p>RSE (River Sediment Explorer) prototype was exhibited at INMEX SMM 2023.</p>
+      </div>
+      <div class="rd-col2">
+        <h4>BOT BALL<br>WIFI Operated Car</h4>
+        <p>WIFI operated car (BOT BALL) won 2nd prize in Tempest 2K24 held in IMU Kolkata.</p>
+      </div>
+      <div class="rd-col3">
+        <h4>BOAT WAR<br>Single Screw Propelled Vessel</h4>
+        <p>Single screw-propelled vessel for higher manoeuvrability secured 2nd prize at IIT KGP SamundraManthan 2K24 in Boat War.</p>
+      </div>
+    </div>
+   <div class="commentbox">
+    <h3>Leave a comment</h3>
+    <form class="commentform">
+      <input type="text" placeholder="Enter Name">
+      <input type="text" placeholder="Enter Email">
+      <textarea rows="5" placeholder="Your Comment"></textarea>
+      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+    </form>
+  </div>
+    </section>
+ <section class="footer">
+    <div class="icons">
+      <a href="https://www.instagram.com/buildneo_/" target="_blank" rel="noopener noreferrer"><i class="fa fa-instagram"></i></a>
+      <a href="https://www.linkedin.com/in/buildneo-76a11a301/" target="_blank" rel="noopener noreferrer"><i class="fa fa-linkedin"></i></a>
+      <a href="https://8fca0086-4fd8-4253-a868-f40e63bed600-00-25yx0uf340kar.pike.replit.dev/index.html" target="_blank" rel="noopener noreferrer"><i class="fa fa-google"></i></a>
+      <a href="https://chat.whatsapp.com/ImIcyWs6Kgw4qWV59bBsEr" target="_blank" rel="noopener noreferrer"><i class="fa fa-whatsapp"></i></a>
+    </div>
+  </section>
+
+  <section class="cpy">
+    <p>Copyright © 2023 BuildNEO. All Rights Reserved</p>
+  </section>
+
+  <script>
+    var navlinks = document.getElementById("navlinks");
+    function openmenu() {
+      navlinks.style.right = "0px";
+    }
+    function hidemenu() {
+      navlinks.style.right = "-200px";
+    }
+  </script>
+</body>
+</html>
