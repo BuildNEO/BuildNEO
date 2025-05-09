@@ -460,6 +460,20 @@ h3{
   text-align: center;
   padding-top: 100px;
 }
+.pdf-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Bootstrap blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.pdf-button:hover {
+  background-color: #0056b3;
+}
 .rd-col1{
   flex-basis: 31%;
   background: #fff3f3;
