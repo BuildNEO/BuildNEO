@@ -204,6 +204,7 @@ nav .fa{
   margin: auto;
   text-align: center;
   padding-top: 100px;
+  background-color: #000000;
 }
 h1{
   font-size: 36px;
@@ -790,3 +791,4 @@ h3{
   outline: none;
   background: #f0f0f0;
 }
+
