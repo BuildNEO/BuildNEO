@@ -60,7 +60,7 @@
 
   .hero-btn:hover {
     background: #fff;
-    color: #fff;
+    color: #000;
   }
 
   @media (max-width: 768px) {
