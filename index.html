@@ -196,15 +196,21 @@ accurate thrust vectoring and responsive navigation.</p>
   <section class="cpy">
     <p>Copyright © 2025 BuildNEO. All Rights Reserved</p>
   </section>
-  <script>  
-    var navLinks = document.getElementById("navLinks");
-    function showMenu() {
-      navLinks.style.right = "0";
-    }
-    function hideMenu() {
-      navLinks.style.right = "-200px";
-    }
- </script>
+  <script>
+  var navLinks = document.getElementById("navLinks");
+
+  function showMenu() {
+    navLinks.style.right = "0";
+    document.getElementById("menuOpen").style.display = "none";   // hide ☰
+    document.getElementById("menuClose").style.display = "block"; // show ❌
+  }
+
+  function hideMenu() {
+    navLinks.style.right = "-200px";
+    document.getElementById("menuOpen").style.display = "block";  // show ☰
+    document.getElementById("menuClose").style.display = "none";  // hide ❌
+  }
+</script>
 </body>
 
 </html>
