@@ -625,7 +625,7 @@ h3{
 .rd-col h3{
   margin-top: 16px;
   margin-bottom: 15px;
-  text-align: center;
+  text-align: justify;
 }
 .rd-col1:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
