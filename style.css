@@ -574,22 +574,22 @@ h3{
   text-align: center;
 }
 .rd-col1:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col2:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col3:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col4:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col5:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col6:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .founders{
   width: 80%;
@@ -608,7 +608,7 @@ h3{
   display: flex;    
 }
 .founders-col:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .founders-col img{
   height: 40px;
@@ -633,7 +633,7 @@ h3{
     padding: 100px 0;
   }
 .cta:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
   .cta h1{
     margin-bottom: 40px;
