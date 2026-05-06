@@ -540,6 +540,45 @@ h3{
   background-size: cover;
   color: #fff;
 }
+.rd-col7{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/Flareon 7.1.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.rd-col8{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/Lapras 5.6.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+.rd-col9{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/hydros.jpeg);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
 .rd-col img{
   width: 100%;
   border-radius: 10px;
@@ -568,6 +607,18 @@ h3{
   padding: 10px;
   color: #fff;
 }
+.rd-col7 p{
+  padding: 10px;
+  color: #fff;
+}
+.rd-col8 p{
+  padding: 10px;
+  color: #fff;
+}
+.rd-col9 p{
+  padding: 10px;
+  color: #fff;
+}
 .rd-col h3{
   margin-top: 16px;
   margin-bottom: 15px;
@@ -589,6 +640,15 @@ h3{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .rd-col6:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.rd-col7:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.rd-col8:hover{
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
+}
+.rd-col9:hover{
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .founders{
