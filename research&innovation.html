@@ -76,11 +76,11 @@
    <div class="commentbox">
     <h3>Leave a comment</h3>
     <form class="commentform" action="https://formspree.io/f/mojrwzlo" method="POST">
-      <input type="text" placeholder="Enter Name">
-      <input type="text" placeholder="Enter Email">
-      <textarea rows="5" placeholder="Your Comment"></textarea>
-      <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
-    </form>
+  <input type="text" name="name" placeholder="Enter Name" required>
+  <input type="email" name="email" placeholder="Enter Email" required>
+  <textarea name="message" rows="5" placeholder="Your Comment" required></textarea>
+  <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+</form>
   </div>
     </section>
  <section class="footer">
