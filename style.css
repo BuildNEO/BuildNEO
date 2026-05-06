@@ -422,7 +422,7 @@ h3{
   overflow: hidden;
 }
 .team-col:hover{
-  box-shadow: 0 0 20px 0px rgba(0,0,225);
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.5);
 }
 .team-col img{
   width: 100%;
