@@ -577,7 +577,7 @@ h3{
   padding: 20px 12px;
   box-sizing: border-box;
   transition: 0.5s;
-  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/hydros.jpeg);
+  background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/botball.jpeg);
   background-position: center;
   background-size: cover;
   color: #fff;
@@ -687,7 +687,7 @@ h3{
 .cta{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/contact.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/contact banner.jpeg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
