@@ -799,17 +799,19 @@ h3{
   margin: 10px 0;
 }
 .subheader2{
-  height: 100vh;
+  min-height: 60vh;
   width: 100%;
-  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(photos/contact banner (1).jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(photos/contact banner (1).jpg);
   background-position: center;
   background-size: cover;
   text-align: center;
   color: #fff;
+  position: relative;
 }
 .subheader2 h1{
-  margin-top: 200px;
-  position: center;
+  padding-top: 220px;
+  font-size: 50px;
+  text-align: center;
 }
 .location{
   width: 80%;
