@@ -799,7 +799,7 @@ h3{
   margin: 10px 0;
 }
 .subheader2{
-  min-height: 60vh;
+  height: 100vh;
   width: 100%;
   background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(photos/contact banner.png);
   background-position: center;
